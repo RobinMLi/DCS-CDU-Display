@@ -26,7 +26,8 @@ Arduino display library:
 Detail is here: https://forum.arduino.cc/index.php?topic=366304.0
 
 
-The default 5x7 font has been modified to handle the special charactor from A-10C CDU display. 
+The default 5x7 font has been modified to handle the special character from A-10C CDU display. 
 
-
+glcdfont_cdu.c is the modified font file, use it to replace the default glcdfont.c font file in Adafruit_GFX library. 
+DCS_CDU_DISPLAY.ino is the ardunio sketch.
 
